@@ -1,0 +1,251 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	3000 4300 3200 4300
+Wire Wire Line
+	3200 4300 3200 4400
+Wire Wire Line
+	3200 4200 3200 4300
+Connection ~ 3200 4300
+Text Label 3000 4300 0    10   ~ 0
+0
+Wire Wire Line
+	5000 4400 5000 4300
+Wire Wire Line
+	5000 4300 5100 4300
+Text Label 5000 4400 0    10   ~ 0
+0
+Wire Wire Line
+	3800 4600 3800 4900
+Text Label 3800 4600 0    10   ~ 0
+0
+Wire Wire Line
+	4100 4600 4100 4900
+Text Label 4100 4600 0    10   ~ 0
+0
+Wire Wire Line
+	8400 4200 8400 4000
+Wire Wire Line
+	8400 4000 8500 4000
+Text Label 8400 4200 0    10   ~ 0
+0
+Wire Wire Line
+	3000 3900 3000 3800
+Wire Wire Line
+	3000 3800 3200 3800
+Wire Wire Line
+	3200 3800 3600 3800
+Wire Wire Line
+	3600 3800 4600 3800
+Wire Wire Line
+	4600 3800 5100 3800
+Wire Wire Line
+	3600 3500 3600 3800
+Wire Wire Line
+	8500 3700 8500 3100
+Wire Wire Line
+	8500 3100 4600 3100
+Wire Wire Line
+	4600 3100 4600 3800
+Wire Wire Line
+	3200 3900 3200 3800
+Connection ~ 3600 3800
+Connection ~ 4600 3800
+Connection ~ 3200 3800
+Wire Wire Line
+	6400 3900 6600 3900
+Wire Wire Line
+	7000 3900 7200 3900
+Wire Wire Line
+	6400 4300 6600 4300
+Wire Wire Line
+	6400 4200 7900 4200
+Wire Wire Line
+	7900 4200 7900 3900
+Wire Wire Line
+	7900 3900 8500 3900
+Wire Wire Line
+	8500 3800 7600 3800
+Wire Wire Line
+	7600 3800 7600 4100
+Wire Wire Line
+	7600 4100 6400 4100
+$Comp
+L DrumstormLED-eagle-import:ATTINY85P U1
+U 1 1 F9562130
+P 5700 4000
+F 0 "U1" H 5300 4330 59  0000 L BNN
+F 1 "ATTINY85P" H 5300 3500 59  0000 L BNN
+F 2 "DrumstormLED:PDIP08_300MIL" H 5700 4000 50  0001 C CNN
+F 3 "" H 5700 4000 50  0001 C CNN
+	1    5700 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L DrumstormLED-eagle-import:JU05 J1
+U 1 1 2CE6A523
+P 2700 4100
+F 0 "J1" H 2650 4430 59  0000 L BNN
+F 1 "JU05" H 2650 3700 59  0000 L BNN
+F 2 "DrumstormLED:JU05" H 2700 4100 50  0001 C CNN
+F 3 "" H 2700 4100 50  0001 C CNN
+	1    2700 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L DrumstormLED-eagle-import:GND #X_01
+U 1 1 22705153
+P 3200 4400
+F 0 "#X_01" H 3200 4400 50  0001 C CNN
+F 1 "GND" H 3200 4400 50  0001 C CNN
+F 2 "" H 3200 4400 50  0001 C CNN
+F 3 "" H 3200 4400 50  0001 C CNN
+	1    3200 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L DrumstormLED-eagle-import:GND #X_02
+U 1 1 557B168A
+P 5000 4400
+F 0 "#X_02" H 5000 4400 50  0001 C CNN
+F 1 "GND" H 5000 4400 50  0001 C CNN
+F 2 "" H 5000 4400 50  0001 C CNN
+F 3 "" H 5000 4400 50  0001 C CNN
+	1    5000 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L DrumstormLED-eagle-import:MPT5 X1
+U 1 1 753049C4
+P 3600 3400
+F 0 "X1" H 3740 3375 59  0000 L BNN
+F 1 "MPT5" H 3560 3270 59  0001 L BNN
+F 2 "DrumstormLED:5POL254" H 3600 3400 50  0001 C CNN
+F 3 "" H 3600 3400 50  0001 C CNN
+	1    3600 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L DrumstormLED-eagle-import:MPT5 X1
+U 2 1 753049C8
+P 3800 4500
+F 0 "X1" H 3940 4475 59  0000 L BNN
+F 1 "MPT5" H 3760 4370 59  0001 L BNN
+F 2 "DrumstormLED:5POL254" H 3800 4500 50  0001 C CNN
+F 3 "" H 3800 4500 50  0001 C CNN
+	2    3800 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L DrumstormLED-eagle-import:MPT5 X1
+U 3 1 753049CC
+P 7300 3900
+F 0 "X1" H 7440 3875 59  0000 L BNN
+F 1 "MPT5" H 7260 3770 59  0001 L BNN
+F 2 "DrumstormLED:5POL254" H 7300 3900 50  0001 C CNN
+F 3 "" H 7300 3900 50  0001 C CNN
+	3    7300 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L DrumstormLED-eagle-import:MPT5 X1
+U 4 1 753049D0
+P 6700 4300
+F 0 "X1" H 6840 4275 59  0000 L BNN
+F 1 "MPT5" H 6660 4170 59  0001 L BNN
+F 2 "DrumstormLED:5POL254" H 6700 4300 50  0001 C CNN
+F 3 "" H 6700 4300 50  0001 C CNN
+	4    6700 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L DrumstormLED-eagle-import:MPT5 X1
+U 5 1 753049D4
+P 4100 4500
+F 0 "X1" H 4240 4475 59  0000 L BNN
+F 1 "MPT5" H 4060 4370 59  0000 L BNN
+F 2 "DrumstormLED:5POL254" H 4100 4500 50  0001 C CNN
+F 3 "" H 4100 4500 50  0001 C CNN
+	5    4100 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L DrumstormLED-eagle-import:GND #X_03
+U 1 1 9B623D4B
+P 3800 4900
+F 0 "#X_03" H 3800 4900 50  0001 C CNN
+F 1 "GND" H 3800 4900 50  0001 C CNN
+F 2 "" H 3800 4900 50  0001 C CNN
+F 3 "" H 3800 4900 50  0001 C CNN
+	1    3800 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L DrumstormLED-eagle-import:R0207_10 R1
+U 1 1 0283DCCD
+P 6800 3900
+F 0 "R1" H 6650 3959 59  0000 L BNN
+F 1 "R0207_10" H 6650 3770 59  0000 L BNN
+F 2 "DrumstormLED:0207_10" H 6800 3900 50  0001 C CNN
+F 3 "" H 6800 3900 50  0001 C CNN
+	1    6800 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L DrumstormLED-eagle-import:GND #X_04
+U 1 1 3AE73A88
+P 4100 4900
+F 0 "#X_04" H 4100 4900 50  0001 C CNN
+F 1 "GND" H 4100 4900 50  0001 C CNN
+F 2 "" H 4100 4900 50  0001 C CNN
+F 3 "" H 4100 4900 50  0001 C CNN
+	1    4100 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L DrumstormLED-eagle-import:MA04-1 SV1
+U 1 1 57E47A5C
+P 8800 3900
+F 0 "SV1" H 8750 4130 59  0000 L BNN
+F 1 "MA04-1" H 8750 3500 59  0000 L BNN
+F 2 "DrumstormLED:MA04-1" H 8800 3900 50  0001 C CNN
+F 3 "" H 8800 3900 50  0001 C CNN
+	1    8800 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L DrumstormLED-eagle-import:GND #X_05
+U 1 1 D0DEE998
+P 8400 4200
+F 0 "#X_05" H 8400 4200 50  0001 C CNN
+F 1 "GND" H 8400 4200 50  0001 C CNN
+F 2 "" H 8400 4200 50  0001 C CNN
+F 3 "" H 8400 4200 50  0001 C CNN
+	1    8400 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L DrumstormLED-eagle-import:C7.5_4 C1
+U 1 1 3BB99FBE
+P 3200 4000
+F 0 "C1" H 3260 4015 59  0000 L BNN
+F 1 "C7.5_4" H 3260 3815 59  0000 L BNN
+F 2 "DrumstormLED:C7.5B4" H 3200 4000 50  0001 C CNN
+F 3 "" H 3200 4000 50  0001 C CNN
+	1    3200 4000
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

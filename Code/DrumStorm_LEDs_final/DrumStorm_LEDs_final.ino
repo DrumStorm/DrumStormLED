@@ -8,8 +8,8 @@
 
 
 #define LED_PIN                 2     //the pin the LEDs are connected to
-#define NUM_LEDS                75    //number of LEDs
-#define BTN_PIN                 0     //the pin the modus button is connected to
+#define NUM_LEDS                96    //number of LEDs
+#define BTN_PIN                 4     //the pin the modus button is connected to
 #define BTN_Bounce              50    //bounce time of the modus button in ms
 #define mediumTime              1000  //medium button press time
 #define longTime                2000  //long button press time
